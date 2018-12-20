@@ -1,0 +1,158 @@
+html{
+    background-color: black;
+}
+
+/* Left block */
+#leftBlock {
+    border-radius: 1px;
+    height: 750px;
+    background-color: white;
+    box-shadow:0px 1px 1px black;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+}
+
+#time {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow:0px 0px 1x white;
+}
+#time p {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#temperatureBlock, #humidityBlock, #batteryBlock{
+    width: 300px;
+    height: 200px;
+    margin:auto;
+    background: rgb(109, 108, 108);
+    margin-bottom: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 2px black;
+}
+
+#temperatureValue{
+    margin:auto;
+    padding-top: 60px;
+    padding-left: 20px;
+    display: block;
+    height: 100%;
+    box-shadow: 0px 0px 3px black;
+}
+#temperatureValue p {
+    font-size: 50px;
+    color:white;
+}
+#temperatureImg img {
+    width: 80%;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin:auto;
+    padding-left: 14px;
+}
+
+#humidityValue{
+    margin:auto;
+    padding-top: 60px;
+    padding-left: 20px;
+    display: block;
+    height: 100%;
+    box-shadow: 0px 0px 3px black;
+}
+
+#humidityValue p {
+    font-size: 50px;
+    color:white;
+}
+
+#humidityImg img {
+    margin: auto;
+    padding-top: 60px;
+    width:90%;
+    padding-left: 10px;
+}
+
+#batteryValue{
+    margin:auto;
+    padding-top: 60px;
+    padding-left: 20px;
+    display: block;
+    height: 100%;
+    box-shadow: 0px 0px 3px black;
+}
+
+#batteryValue p {
+    font-size: 50px;
+    color: white;
+}
+
+#batteryImg img {
+    width: 90%;
+    padding-top: 60px;
+    padding-left: 10px;
+    margin:auto;
+}
+
+
+/* Right block */
+#rightBlock {
+    border-radius: 1px;
+    height: 750px;
+    background-color:white;
+    box-shadow:0px 1px 10px black;
+    overflow: hidden;
+    margin: 0px 0px 5px 0px;
+    padding-top: 40px;
+    padding-left: 40px;    
+    font-size: 50px;
+    color: white;
+}
+
+#legend p {
+    margin: auto;
+    margin-top : 5px;
+    padding-top: 10px;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+
+/* Footer */
+
+#footer {
+    margin: auto;
+    margin-top: 5px;
+    height: 20%;
+    background-color: white;
+    box-shadow:1px 1px 10px white;
+}
+
+#containerFooter{
+    border-radius: 2px;
+    margin:auto;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(109, 108, 108);
+    border-radius: 1px;
+    box-shadow: 0px 1px 1px black;
+}
+
+#citation p{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    text-align:center;
+}
+
+#logo img {
+    width : 400px;
+    margin:auto;
+    margin-left: 65px;
+}
