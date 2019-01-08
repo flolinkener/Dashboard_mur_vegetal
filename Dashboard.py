@@ -6,7 +6,6 @@ import datetime
 import numpy as np
 from dash.dependencies import Input, Output
 import mongo_db_interactions as mongo
-import get_data_from_textfile as gdft
 import fetch_citation as fc
 
 external_stylesheets = [
@@ -125,11 +124,6 @@ app.layout = html.Div([
     ])
 
 ])
-
-@app.callback(Output('refresh-data', 'children'),
-              [Input('refresh-data-component', 'n_intervals')])
-def update_fake_data(n):
-      return gdft.txt_to_db()
 
 @app.callback(Output('time', 'children'),
               [Input('interval-component', 'n_intervals')])

@@ -16,11 +16,3 @@ def txt_to_db():
     humidity = data[2]
     battery = data[3]
     mongo.write_data(id,temperature,humidity,battery)
-
-if __name__ == '__main__':
-    last_change = 0
-    while True:
-        time.sleep(0.1)
-        if os.stat("assets/data.txt").st_mtime != last_change:
-            txt_to_db()
-            last_change = os.stat("assets/data.txt").st_mtime
