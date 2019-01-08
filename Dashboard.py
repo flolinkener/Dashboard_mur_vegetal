@@ -3,17 +3,30 @@ import dash_html_components as html
 import dash_core_components as dcc
 import plotly.graph_objs as go
 import datetime
-import random
-import os
+import numpy as np
 from dash.dependencies import Input, Output
 import mongo_db_interactions as mongo
 import get_data_from_textfile as gdft
-import plotly.figure_factory as ff
 import fetch_citation as fc
 
 external_stylesheets = [
 '/assets/style.css'
 ]
+
+def mean_humidity():
+    humidity_1 = int(mongo.fetch_data_from_id('humidity','1'))
+    humidity_2 = int(mongo.fetch_data_from_id('humidity','2'))
+    humidity_3 = int(mongo.fetch_data_from_id('humidity','3'))
+    humidity_4 = int(mongo.fetch_data_from_id('humidity','4'))
+    humidity_5 = int(mongo.fetch_data_from_id('humidity','5'))
+    humidity_6 = int(mongo.fetch_data_from_id('humidity','6'))
+    humidity_7 = int(mongo.fetch_data_from_id('humidity','7'))
+    humidity_8 = int(mongo.fetch_data_from_id('humidity','8'))
+    humidity_9 = int(mongo.fetch_data_from_id('humidity','9'))
+    humidity_list = [humidity_1,humidity_2,humidity_3,humidity_4,humidity_5,humidity_6,humidity_7,humidity_8,humidity_9]
+    humidity_value = int(np.mean(humidity_list))
+    return humidity_value
+
 
 app = dash.Dash(__name__,external_stylesheets=external_stylesheets)
 app.layout = html.Div([
@@ -131,7 +144,7 @@ def update_temperature(n):
 @app.callback(Output('humidityValue', 'children'),
               [Input('humidity-component', 'n_intervals')])
 def update_humidity(n):
-      return [html.P(str(mongo.fetch_data('humidity')) + '%')]
+      return [html.P(str(mean_humidity()) + '%')]
 
 @app.callback(Output('batteryValue', 'children'),
               [Input('battery-component', 'n_intervals')])
@@ -249,6 +262,4 @@ def update_citation(n):
       return [html.P(fc.fetch_citation())]
 
 if __name__ == '__main__':
-    os.system('python3 get_data_from_textfile.py &')
-    os.system('python3 fake_data.py &')
     app.run_server(debug=False)

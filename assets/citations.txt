@@ -1,18 +1,24 @@
-﻿Véritable jardin esthétique, le mur végétal ébloui le public par son originalité et l’aspect luxuriant de son feuillage.
-Un mur végétal apporte une meilleure régulation thermique d’un bâtiment.
-La paroi végétale protège le bâtiment contre toutes pollutions (microparticules, poussières...)
-Avantage acoustique : Certains substrats peuvent atténuer le bruit de 5 à 7 dB.
-Les plantes exotiques d’un mur intérieur apportent une belle touche de biodiversité.
-Les plantes utilisent l’énergie solaire et le CO2 que nous rejetons pour produire notre oxygène via la photosynthèse.
-Un mur végétal combat la pollution visuelle en limitant les dégradations dues aux affiches et aux tags.
-La présence des installations végétales atténue les phénomènes d’Îlot de Chaleur Urbain (ICU) au sein d’une ville.
-Ces aménagements verts peuvent être l’une des solutions d’adaptation des villes au changement climatique.
-Une culture en suspension élimine les problèmes liés au sol (maladies, pathogènes…)
-Le mur végétal permet de grandes économies d’eau et d’engrais minéraux.
-Une toiture végétalisée peut constituer la couche d’étanchéité d’une toiture de bâtiment.
-Les feuilles des façades végétales jouent le rôle de protection solaire du mur pendant la journée et empêchent son rafraîchissement pendant la nuit.
-Les feuilles absorbent une grande partie du rayonnement solaire sans monter en température, du fait de leur capacité à transpirer.
-Les toitures végétalisées limitent la pollution liée au ruissellement de l’eau de pluie.
-Une stimulation environnementale tel qu’un mur végétal intérieur contribue à la sensation de bien-être de l’individu.
-Les façades végétales fournissent un environnement thermique plus frais.
-Les toitures végétales contribuent essentiellement à l’amélioration des conditions de confort à l’intérieur du bâtiment.
+﻿Véritable jardin esthétique, le mur végétal ébloui le public par son originalité l’aspect luxuriant de son feuillage. 
+Un mur végétal apporte une meilleure régulation thermique d’un bâtiment. 
+La paroi végétale protège le bâtiment contre toutes pollutions (microparticules, poussières...) 
+Avantage acoustique : Certains substrats peuvent atténuer le bruit de 5 à 7 dB. 
+Les plantes exotiques d’un mur intérieur apportent une belle touche de biodiversité. 
+Les plantes utilisent l’énergie solaire et le CO2 que nous rejetons pour produire notre oxygène via la photosynthèse.  
+Un mur végétal combat la pollution visuelle en limitant les dégradations dues aux affiches et aux tags. 
+La présence des installations végétales atténue les phénomènes d’Îlot de Chaleur Urbain (ICU) au sein d’une ville.  
+Ces aménagements verts peuvent être l’une des solutions d’adaptation des villes au changement climatique. 
+Une culture en suspension élimine les problèmes liés au sol (maladies, pathogènes…) 
+Le mur végétal permet de grandes économies d’eau et d’engrais minéraux. 
+Une toiture végétalisée peut constituer la couche d’étanchéité d’une toiture de bâtiment. 
+Les feuilles des façades végétales jouent le rôle de protection solaire du mur pendant la journée et empêchent son rafraîchissement pendant la nuit.  
+Les feuilles absorbent une grande partie du rayonnement solaire sans monter en température, du fait de leur capacité à transpirer. 
+Les toitures végétalisées limitent la pollution liée au ruissellement de l’eau de pluie. 
+Une stimulation environnementale tel qu’un mur végétal intérieur contribue à la sensation de bien-être de l’individu. 
+Les façades végétales fournissent un environnement thermique plus frais. 
+Les toitures végétales contribuent essentiellement à l’amélioration des conditions de confort à l’intérieur du bâtiment.  
+Les toitures végétales permettent dans certains cas de réduire les consommations de chauffage. 
+La végétation urbaine est un puit de carbone qui permet de compenser une partie des émissions anthropiques. 
+La végétalisation d’un mur ou d’une toiture permet l’installation d’une nouvelle communauté écologique.  
+Les toits végétalisés ont des températures intérieures réduites entre 3 et 4°C lorsque les températures extérieures sont comprises entre 25 et 30°C. 
+Les toits verts peuvent éliminer les particules de poussière de l'ordre de 0,2 kg de particules par an et par mètre carré de toit en herbe. 
+Un toit végétalisé devient un puit de carbone au bout de 9 ans, incluant les émissions associées à la construction du toit.  
